@@ -1,0 +1,448 @@
+{
+  "doiSeeds": [
+    {
+      "id": "dunlosky-techniques",
+      "doi": "10.1177/1529100612453266",
+      "type": "systematic-review",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "kirschner-minimal-guidance",
+      "doi": "10.1207/s15326985ep4102_1",
+      "type": "systematic-review",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "vanlehn-tutoring",
+      "doi": "10.1080/00461520.2011.611369",
+      "type": "systematic-review",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "kulik-fletcher-its",
+      "doi": "10.3102/0034654315581420",
+      "type": "meta-analysis",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "ma-its-meta",
+      "doi": "10.1037/a0037123",
+      "type": "meta-analysis",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "kli-framework",
+      "doi": "10.1111/j.1551-6709.2012.01245.x",
+      "type": "framework",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "bjork-self-regulated",
+      "doi": "10.1146/annurev-psych-113011-143823",
+      "type": "systematic-review",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "roediger-karpicke",
+      "doi": "10.1111/j.1467-9280.2006.01693.x",
+      "type": "primary-study",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "rowland-testing-meta",
+      "doi": "10.1037/a0037559",
+      "type": "meta-analysis",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "adesope-practice-testing",
+      "doi": "10.3102/0034654316689306",
+      "type": "meta-analysis",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "hattie-timperley-feedback",
+      "doi": "10.3102/003465430298487",
+      "type": "systematic-review",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "wisniewski-feedback-meta",
+      "doi": "10.3389/fpsyg.2019.03087",
+      "type": "meta-analysis",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "shute-formative-feedback",
+      "doi": "10.3102/0034654307313795",
+      "type": "systematic-review",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "sweller-1988",
+      "doi": "10.1207/s15516709cog1202_1",
+      "type": "primary-study",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "mayer-moreno-load",
+      "doi": "10.1207/S15326985EP3801_6",
+      "type": "systematic-review",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "mayer-multimedia-2017",
+      "doi": "10.1111/jcal.12197",
+      "type": "systematic-review",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "clark-paivio",
+      "doi": "10.1007/BF01320076",
+      "type": "framework",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "chi-self-explanation",
+      "doi": "10.1207/s15516709cog1302_1",
+      "type": "primary-study",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "kalyuga-expertise-reversal",
+      "doi": "10.1207/S15326985EP3801_4",
+      "type": "systematic-review",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "schwartz-martin-invention",
+      "doi": "10.1207/s1532690xci2202_1",
+      "type": "primary-study",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "gentner-analogical",
+      "doi": "10.1037/0022-0663.95.2.393",
+      "type": "primary-study",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "zimmerman-srl",
+      "doi": "10.1207/s15430421tip4102_2",
+      "type": "framework",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "dignath-buttner",
+      "doi": "10.1007/s11409-008-9029-x",
+      "type": "meta-analysis",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "kornell-bjork-interleaving",
+      "doi": "10.1111/j.1467-9280.2008.02127.x",
+      "type": "primary-study",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "rohrer-taylor",
+      "doi": "10.1002/acp.1266",
+      "type": "primary-study",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "soderstrom-bjork",
+      "doi": "10.1177/1745691615569000",
+      "type": "systematic-review",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "ryan-deci-sdt",
+      "doi": "10.1037/0003-066X.55.1.68",
+      "type": "framework",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "eccles-wigfield-2020",
+      "doi": "10.1016/j.cedpsych.2020.101859",
+      "type": "framework",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "bandura-self-efficacy",
+      "doi": "10.1037/0033-295X.84.2.191",
+      "type": "framework",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "honicke-broadbent",
+      "doi": "10.1016/j.edurev.2015.11.002",
+      "type": "systematic-review",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "elliot-mcgregor",
+      "doi": "10.1037/0022-3514.80.3.501",
+      "type": "primary-study",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "hidi-renninger",
+      "doi": "10.1207/s15326985ep4102_4",
+      "type": "framework",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "crede-grit-meta",
+      "doi": "10.1037/pspp0000102",
+      "type": "meta-analysis",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "duckworth-grit",
+      "doi": "10.1037/0022-3514.92.6.1087",
+      "type": "primary-study",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "sisk-mindset-meta",
+      "doi": "10.1177/0956797617739704",
+      "type": "meta-analysis",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "yeager-national-mindset",
+      "doi": "10.1038/s41586-019-1466-y",
+      "type": "primary-study",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "walton-cohen-belonging",
+      "doi": "10.1126/science.1198364",
+      "type": "primary-study",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "cohen-values-affirmation",
+      "doi": "10.1126/science.1128317",
+      "type": "primary-study",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "steele-aronson",
+      "doi": "10.1037/0022-3514.69.5.797",
+      "type": "primary-study",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "flore-stereotype-meta",
+      "doi": "10.1016/j.jsp.2014.10.002",
+      "type": "meta-analysis",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "jussim-harber",
+      "doi": "10.1207/s15327957pspr0902_3",
+      "type": "systematic-review",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "ashcraft-krause",
+      "doi": "10.3758/BF03194059",
+      "type": "primary-study",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "barroso-math-anxiety",
+      "doi": "10.1037/bul0000307",
+      "type": "meta-analysis",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "melby-lervag-wm-training",
+      "doi": "10.1037/a0028228",
+      "type": "meta-analysis",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "simons-brain-training",
+      "doi": "10.1177/1529100616661983",
+      "type": "systematic-review",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "sala-gobet-music",
+      "doi": "10.3758/s13421-020-01060-2",
+      "type": "meta-analysis",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "willingham-learning-styles",
+      "doi": "10.1177/0098628315589505",
+      "type": "systematic-review",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "howard-jones-neuromyths",
+      "doi": "10.1038/nrn3817",
+      "type": "systematic-review",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "dekker-neuromyths",
+      "doi": "10.3389/fpsyg.2012.00429",
+      "type": "primary-study",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "kirschner-digital-native",
+      "doi": "10.1016/j.tate.2017.06.001",
+      "type": "systematic-review",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "freeman-active-learning",
+      "doi": "10.1073/pnas.1319030111",
+      "type": "meta-analysis",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "theobald-active-equity",
+      "doi": "10.1073/pnas.1916903117",
+      "type": "meta-analysis",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "deslauriers-feeling",
+      "doi": "10.1073/pnas.1821936116",
+      "type": "primary-study",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "kulik-mastery",
+      "doi": "10.3102/00346543060002265",
+      "type": "meta-analysis",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "bloom-two-sigma",
+      "doi": "10.3102/0013189X013006004",
+      "type": "primary-study",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "palincsar-brown",
+      "doi": "10.1207/s1532690xci0102_1",
+      "type": "primary-study",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "rosenshine-reciprocal",
+      "doi": "10.3102/00346543064004479",
+      "type": "meta-analysis",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "johnson-cooperative",
+      "doi": "10.3102/0013189X09339057",
+      "type": "systematic-review",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "rowe-wait-time",
+      "doi": "10.1177/002248718603700110",
+      "type": "primary-study",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "hmelo-silver-pbl",
+      "doi": "10.1023/B:EDPR.0000034022.16470.f3",
+      "type": "systematic-review",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "dochy-pbl-meta",
+      "doi": "10.1016/S0959-4752(02)00025-7",
+      "type": "meta-analysis",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "alfieri-discovery",
+      "doi": "10.1037/a0021017",
+      "type": "meta-analysis",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "furtak-inquiry",
+      "doi": "10.3102/0034654312457206",
+      "type": "meta-analysis",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "lazonder-harmsen",
+      "doi": "10.3102/0034654315627366",
+      "type": "meta-analysis",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "chen-pbl-meta",
+      "doi": "10.1016/j.edurev.2018.11.001",
+      "type": "meta-analysis",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "vanalten-flipped",
+      "doi": "10.1016/j.edurev.2019.05.003",
+      "type": "meta-analysis",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "bernard-distance",
+      "doi": "10.3102/00346543074003379",
+      "type": "meta-analysis",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "sailer-gamification",
+      "doi": "10.1007/s10648-019-09498-w",
+      "type": "meta-analysis",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "wouters-serious-games",
+      "doi": "10.1037/a0031311",
+      "type": "meta-analysis",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "clark-digital-games",
+      "doi": "10.3102/0034654315582065",
+      "type": "meta-analysis",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "cooper-homework",
+      "doi": "10.3102/00346543076001001",
+      "type": "meta-analysis",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "fyfe-concreteness-fading",
+      "doi": "10.1007/s10648-014-9249-3",
+      "type": "systematic-review",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "siegler-ramani-games",
+      "doi": "10.1037/a0014239",
+      "type": "primary-study",
+      "authority": "primary-peer-reviewed"
+    },
+    {
+      "id": "booth-siegler",
+      "doi": "10.1111/j.1467-8624.2008.01173.x",
+      "type": "primary-study",
+      "authority": "primary-peer-reviewed"
+    }
+  ]
+}

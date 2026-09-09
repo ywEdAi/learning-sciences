@@ -1,0 +1,144 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://eduos.local/schemas/pedagogy-knowledge-rack-1.0.0.json",
+  "title": "EduOS retrievable pedagogy knowledge rack",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "rack", "evidenceScale", "recommendationScale", "sources", "entries", "relations"],
+  "properties": {
+    "schemaVersion": { "const": "1.0.0" },
+    "rack": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "version", "title", "status", "createdAt", "scope", "nonPolicyNotice"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^rack:" },
+        "version": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$" },
+        "title": { "$ref": "#/$defs/nonEmpty" },
+        "status": { "enum": ["draft", "reviewed", "deprecated"] },
+        "createdAt": { "type": "string", "format": "date" },
+        "scope": { "$ref": "#/$defs/nonEmpty" },
+        "nonPolicyNotice": { "$ref": "#/$defs/nonEmpty" }
+      }
+    },
+    "evidenceScale": {
+      "type": "object",
+      "additionalProperties": { "$ref": "#/$defs/nonEmpty" }
+    },
+    "recommendationScale": {
+      "type": "object",
+      "additionalProperties": { "$ref": "#/$defs/nonEmpty" }
+    },
+    "sources": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/source" }
+    },
+    "entries": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/entry" }
+    },
+    "relations": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/relation" }
+    }
+  },
+  "$defs": {
+    "nonEmpty": { "type": "string", "minLength": 1 },
+    "stringArray": { "type": "array", "items": { "$ref": "#/$defs/nonEmpty" } },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "title", "authorsOrInstitution", "year", "type", "url", "authority"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^source:" },
+        "title": { "$ref": "#/$defs/nonEmpty" },
+        "authorsOrInstitution": { "$ref": "#/$defs/nonEmpty" },
+        "year": { "type": "integer", "minimum": 1900, "maximum": 2100 },
+        "type": { "enum": ["primary-study", "systematic-review", "meta-analysis", "consensus-report", "practice-guide", "professional-standard", "framework"] },
+        "url": { "type": "string", "format": "uri" },
+        "doi": { "type": "string" },
+        "authority": { "enum": ["primary-peer-reviewed", "institutional-evidence-synthesis", "institutional-consensus", "normative-standard"] },
+        "notes": { "type": "string" }
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "confidence", "basis", "directness", "generalizability", "sourceIds"],
+      "properties": {
+        "status": { "enum": ["strong", "context-dependent", "hypothesis", "contested", "refuted", "normative-standard"] },
+        "confidence": { "enum": ["high", "moderate", "low"] },
+        "basis": { "$ref": "#/$defs/nonEmpty" },
+        "directness": { "enum": ["direct-intervention", "mixed-direct-and-inferential", "consensus-design", "normative"] },
+        "generalizability": { "$ref": "#/$defs/nonEmpty" },
+        "notes": { "type": "string" },
+        "sourceIds": { "$ref": "#/$defs/stringArray" }
+      }
+    },
+    "entry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "label", "kind", "summary", "mechanism", "applicable", "prerequisites", "constraints", "risks", "observableEvidence", "evidence", "recommendation", "tags"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^pedagogy:" },
+        "label": { "$ref": "#/$defs/nonEmpty" },
+        "aliases": { "$ref": "#/$defs/stringArray" },
+        "kind": { "enum": ["framework", "principle", "tactic", "constraint", "anti-pattern"] },
+        "summary": { "$ref": "#/$defs/nonEmpty" },
+        "mechanism": { "$ref": "#/$defs/nonEmpty" },
+        "applicable": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["learnerStages", "taskTypes", "contexts"],
+          "properties": {
+            "learnerStages": { "$ref": "#/$defs/stringArray" },
+            "taskTypes": { "$ref": "#/$defs/stringArray" },
+            "contexts": { "$ref": "#/$defs/stringArray" }
+          }
+        },
+        "prerequisites": { "$ref": "#/$defs/stringArray" },
+        "constraints": { "$ref": "#/$defs/stringArray" },
+        "risks": { "$ref": "#/$defs/stringArray" },
+        "observableEvidence": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["indicator", "measure", "timing", "caveat"],
+            "properties": {
+              "indicator": { "$ref": "#/$defs/nonEmpty" },
+              "measure": { "$ref": "#/$defs/nonEmpty" },
+              "timing": { "$ref": "#/$defs/nonEmpty" },
+              "caveat": { "$ref": "#/$defs/nonEmpty" }
+            }
+          }
+        },
+        "evidence": { "$ref": "#/$defs/evidence" },
+        "recommendation": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["status", "rationale"],
+          "properties": {
+            "status": { "enum": ["candidate-default-with-fit-check", "contextual-option", "experimental-only", "do-not-generalize", "avoid"] },
+            "rationale": { "$ref": "#/$defs/nonEmpty" }
+          }
+        },
+        "tags": { "$ref": "#/$defs/stringArray" }
+      }
+    },
+    "relation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["from", "type", "to", "polarity", "evidenceStatus", "rationale", "sourceIds"],
+      "properties": {
+        "from": { "type": "string", "pattern": "^pedagogy:" },
+        "type": { "enum": ["supports", "requires", "moderates", "implements", "complements", "precedes", "part-of", "contrasts-with", "should-fade-into", "does-not-imply"] },
+        "to": { "type": "string", "pattern": "^pedagogy:" },
+        "polarity": { "enum": ["positive", "negative", "conditional"] },
+        "evidenceStatus": { "enum": ["strong", "context-dependent", "hypothesis", "contested", "refuted", "normative-standard"] },
+        "rationale": { "$ref": "#/$defs/nonEmpty" },
+        "sourceIds": { "$ref": "#/$defs/stringArray" }
+      }
+    }
+  }
+}

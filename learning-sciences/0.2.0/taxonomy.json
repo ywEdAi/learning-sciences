@@ -1,0 +1,79 @@
+{
+  "taxonomyVersion": "1.0.0",
+  "note": "Controlled vocabularies for the 0.2.0 rack. Every entry must classify on all seven facets. Free-text description belongs in entry fields, never in facet values.",
+  "facets": {
+    "layer": {
+      "question": "What kind of knowledge object is this?",
+      "values": {
+        "theory": "An explanatory account of how learning or development works; generates predictions, is not itself an instruction.",
+        "framework": "An organizing scheme for designing, analyzing, or classifying instruction; usually not a causal claim.",
+        "principle": "A general design rule abstracted from convergent evidence; applies across many methods.",
+        "method": "A named instructional approach at lesson-to-course grain that bundles many moves.",
+        "tactic": "A single concrete instructional or study move inside a lesson or session.",
+        "construct": "A measurable learner, task, or context variable that moderates or mediates learning.",
+        "measure": "An instrument or measurement approach used to observe learning.",
+        "constraint": "A normative, ethical, legal, or access requirement that bounds what may be done.",
+        "anti-pattern": "A popular practice that is refuted, contested beyond its evidence, or harmful as usually implemented."
+      }
+    },
+    "tradition": {
+      "question": "Which research tradition produced it?",
+      "values": {
+        "cognitive": "Information processing, memory, and cognitive architecture research.",
+        "behavioral": "Reinforcement, practice scheduling, and behavior-analytic research.",
+        "sociocultural": "Vygotskian, situated, and participation-based accounts.",
+        "constructivist": "Knowledge-building, conceptual change, and discovery traditions.",
+        "motivational-social": "Motivation, social psychology, identity, and belonging research.",
+        "developmental": "Developmental and lifespan psychology.",
+        "psychometric": "Measurement, validity, and assessment theory.",
+        "instructional-design": "Systematic design, ISD, and design-based research.",
+        "critical-equity": "Equity, inclusion, disability, and culturally responsive scholarship.",
+        "neuroscience": "Cognitive and educational neuroscience."
+      }
+    },
+    "domain": {
+      "question": "Which subject or professional domain does it apply to?",
+      "values": ["general", "literacy", "mathematics", "science", "computing", "engineering-design", "history-social-studies", "arts", "music", "physical-motor", "world-language", "health", "special-education", "multilingual", "professional-workplace", "teacher-development", "assessment-measurement", "digital-environments"]
+    },
+    "lifespanStage": {
+      "question": "Which learner stage is it evidenced for?",
+      "ordered": ["infancy-toddler", "preschool", "primary", "middle", "secondary", "postsecondary", "adult-workplace", "older-adult", "cross-lifespan"],
+      "note": "A stage means 'evidence exists for this stage', not 'the learner has this capability'. Never infer individual capability from a stage."
+    },
+    "function": {
+      "question": "What job does it do in a learning cycle?",
+      "values": ["diagnose", "motivate", "explain", "practice", "feedback", "consolidate", "transfer", "assess", "self-regulate", "sequence", "collaborate", "access", "climate"]
+    },
+    "grainSize": {
+      "question": "At what scale is it enacted?",
+      "ordered": ["micro-move", "lesson", "unit-course", "program-system"]
+    },
+    "maturity": {
+      "question": "How settled is the knowledge object itself, independent of its effect size?",
+      "values": {
+        "established": "Long-standing, replicated, and stable in its bounded form.",
+        "consolidating": "Substantial evidence with active moderator debate.",
+        "emerging": "Promising but thin or recent evidence.",
+        "disputed": "Active credible disagreement about existence or size of the effect.",
+        "deprecated": "Superseded or shown not to hold as claimed."
+      }
+    }
+  },
+  "crosswalk": {
+    "note": "Maps 0.1.0 free-text learnerStages onto controlled lifespanStage values.",
+    "early-childhood": ["preschool"],
+    "infancy": ["infancy-toddler"],
+    "K-12": ["primary", "middle", "secondary"],
+    "early-primary": ["primary"],
+    "primary": ["primary"],
+    "upper-primary": ["primary", "middle"],
+    "secondary": ["secondary"],
+    "adolescent": ["middle", "secondary"],
+    "emerging-adult": ["postsecondary"],
+    "adult": ["postsecondary", "adult-workplace"],
+    "adult novice": ["adult-workplace"],
+    "adult literacy": ["adult-workplace"],
+    "older-adult": ["older-adult"],
+    "older struggling reader": ["middle", "secondary"]
+  }
+}
