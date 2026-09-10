@@ -68,4 +68,4 @@ Maintained by [Yi Wang](https://github.com/ywEdAi). Published from the Learning 
 
 This repository publishes the knowledge compilation, its build tools and validation tests. Cited publications and institutional documents retain their own rights. No additional reuse license is granted by this initial publication; public availability does not itself grant a reuse license.
 
-Discover related resources in the [Edu AI Builders directory](https://edu-ai-builders.dev/directory).
+Explore the full knowledge library on [Edu AI Builders / Learning Sciences](https://edu-ai-builders.dev/learning-sciences). This is a dedicated first-party knowledge page, separate from the open-source resource directory.
